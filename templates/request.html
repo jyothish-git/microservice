@@ -1,0 +1,17 @@
+<html>
+<body>
+<h1>Your Request Information</h1>
+<ul>
+  <li><strong>IP:</strong>{{ip}}</li>
+  <li><strong>Country:</strong>{{country}}</li>
+  <li><strong>Time Zone:</strong>{{timezone}}</li>
+</ul>
+
+<h2>Request Headers:</h2>
+<ol>
+{% for key,value in request.headers %}
+<li><strong>{{key}}:</strong>{{value}}</li>
+{% endfor %}
+
+</body>
+</html>

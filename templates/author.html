@@ -1,0 +1,8 @@
+<html>
+<body style="background-color:#CD5C5C">
+
+<h1 style="font-size:40px; color:30D4B9">About Authors</h1>
+{% for i in authors_lst %}
+<a href="/authors/{{i}}" style="color:30D4B9; font-size:30px" target="_blank"> About Author {{i}} </a><br /><br />
+{% endfor %}
+</html>
