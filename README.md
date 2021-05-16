@@ -10,4 +10,4 @@ To run the application
 3. source venv/bin/activate
 4. python microblog.py
 
-Application will be accessible in YOUR_IP:4000
+To access the web application hit YOUR_IP:4000 in browser
